@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 32px;
+  text-decoration: underline;
+  color: rgb(0, 98, 255);
+  margin-bottom: 24px;
+}
+
+.form-container-1,
+.form-container-2 {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reg-form {
+  padding: 30px;
+  box-shadow: 0 0 8px 5px #ccc;
+  margin-bottom: 24px;
+}
+
+.input-area {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #515151;
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name input {
+  width: 47%;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender {
+  margin: 10px 0;
+}
+
+.radio-btn {
+  margin-left: 15px;
+}
+
+.registration-btn {
+  cursor: pointer;
+  padding: 8px 24px;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgb(20, 196, 20);
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #515151;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.form-container-2 {
+  width: 35%;
+}
+
+.login-form {
+  height: 300px;
+  padding: 30px;
+  box-shadow: 0 0 8px 5px #ccc;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailInput2,
+.passwordInput2 {
+  margin: 18px 0;
+}
+
+.login-btn {
+  cursor: pointer;
+  padding: 8px 0;
+  width: 90%;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #fff;
+  background-color: rgb(20, 196, 20);
+}
+
+.special-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(20, 106, 235);
+}

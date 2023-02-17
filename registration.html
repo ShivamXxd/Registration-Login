@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="form-container-1">
+    <h1>Sign Up</h1>
+    <form class="reg-form">
+      <div class="name">
+        <input class="input-area fname" type="text" placeholder="Enter your first name" required>
+        <input class="input-area lname" type="text" placeholder="Enter your last name" required>
+      </div>
+      <div class="gender">
+        <label>Select Gender: </label>
+        <input class="radio-btn" type="radio" name="gender" value="Male">
+        <label>Male</label>
+        <input class="radio-btn" type="radio" name="gender" value="Female">
+        <label>Female</label>
+        <input class="radio-btn" type="radio" name="gender" value="Other">
+        <label>Other</label>
+      </div>
+      <div class="credentials">
+        <input class="input-area emailInput1" type="email" placeholder="Enter your Email Id" required>
+        <input class="input-area passwordInput" type="password" placeholder="Enter your Password" required>
+        <input class="input-area confirmPasswordInput" type="password" placeholder="Confirm your password" required>
+      </div>
+      <button class="registration-btn" type="submit">Submit</button>
+    </form>
+    <a class="link" href="./login.html">Already have an account? Click to <span class="special-text">Login</span></a>
+  </div>
+</body>
+
+</html>
